@@ -1,0 +1,379 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClockWithAudio<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.SetListPerformanceTest",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClockWithAudioOnSeparateThread<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ClockWithAudioOnSeparateThread",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsumerProducer<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ConsumerProducer",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsumerProducerUsingBlockingQueue<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ConsumerProducerUsingBlockingQueue",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JoinTest<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "JoinTest",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProgressBarDemo<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ProgressBarDemo",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwingWorkerDemo<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "SwingWorkerDemo",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-T<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "T",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TaskThreadDemo<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "TaskThreadDemo",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadCooperation<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ThreadCooperation",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadCooperationBuildin<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ThreadCooperationBuildin",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AccountWithoutSync<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.AccountWithoutSync",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClockWithAudio<test>(1)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.ClockWithAudio",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EqualsTest<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.EqualsTest",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlashingText<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.FlashingText",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FromArrayToCollection<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.FromArrayToCollection",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenericMethodDemo<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.GenericMethodDemo",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenericTest<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.GenericTest",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Max<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.Max",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyClass<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.MyClass",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyStack<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.MyStack",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyStack1<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.MyStack1",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TaskThreadDemo<test>(1)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.TaskThreadDemo",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadDemo1<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.ThreadDemo1",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TypeInference<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.TypeInference",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WildCardDemo2<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.WildCardDemo2",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WildCardDemo3<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.WildCardDemo3",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SetListPerformanceTest<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.SetListPerformanceTest",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestArrayAndLinkedList<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.TestArrayAndLinkedList",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestHashSet<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.TestHashSet",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestLinkedHashSet<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.TestLinkedHashSet",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMap<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.TestMap",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestTreeSetWithComparator<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "edu.fudan.software.oop.collections.TestTreeSetWithComparator",
+            "projectName": "test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area1.cpp
+Area1.h
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area1.h
+
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area1.h
+
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area2.cpp
+Area2.h
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area2.h
+
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area2.h
+
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/main.cpp
+iostream
+-
+Area1.h
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area1.h
+Area2.h
+C:/Users/L2595/CLionProjects/OOP_Lab3_2.2/Area2.h
+

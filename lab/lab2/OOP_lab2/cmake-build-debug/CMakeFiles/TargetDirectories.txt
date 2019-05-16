@@ -1,0 +1,3 @@
+/home/chener/桌面/OOP_lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chener/桌面/OOP_lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chener/桌面/OOP_lab2/cmake-build-debug/CMakeFiles/OOP_lab2.dir

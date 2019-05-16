@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chener/桌面/OOP_lab2/Stack.cpp
+Stack.h
+/home/chener/桌面/OOP_lab2/Stack.h
+string
+-
+vector
+-
+
+/home/chener/桌面/OOP_lab2/Stack.h
+
+/home/chener/桌面/OOP_lab2/lab2.cpp
+iostream
+-
+fstream
+-
+regex
+-
+Stack.cpp
+/home/chener/桌面/OOP_lab2/Stack.cpp
+
