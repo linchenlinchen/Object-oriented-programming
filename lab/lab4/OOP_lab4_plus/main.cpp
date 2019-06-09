@@ -111,25 +111,28 @@ vector<string> getPosfixResult(vector<string> strs){
     return posfix;
 }
 int main() {
-    int a = 1;
-    int b = 2;
-    int c = 3;
-    a+=b+=c;
+    /*读写文件路径*/
+    string matrixsPath = "testcase_matrix.in";
+    string expressionPath = "testcase_expression.in";
+    string resultPath = "result.out";
+
     /*读取matrix.in文件*/
-    FileUtil fileUtil("matrix.in");
+    FileUtil fileUtil(matrixsPath);
     map<string,Matrix> name_matrix = fileUtil.getMatrixs();
 
     /*读取expression.in文件转化并计算结果*/
-    FileUtil fileUtil1("expression.in");
-    ofstream out("result.out");
+    FileUtil fileUtil1(expressionPath);
+    ofstream out(resultPath);
     string line;
     while (!(line = fileUtil1.getLine()).empty()) {
         vector<string> splitResult = getClearSplitResults(line);
         vector<string> posfixResult = getPosfixResult(splitResult);
         StackForCalculate stackForCalculate(name_matrix);
         Matrix result = stackForCalculate.getResult(posfixResult);
-//        out <<
         result.print();
+        string input_result = result.getPrint();
+        out << input_result;
+        out << "\n";
     }
 
 

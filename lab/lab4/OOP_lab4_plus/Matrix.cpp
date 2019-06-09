@@ -72,13 +72,16 @@ void Matrix::print() {
     std::cout<<"\n";
 }
 string Matrix::getPrint(){
-//    string result;
-//    for (auto &i : bignum) {
-//        for (auto &j : i) {
-//            result.append(j.getPrint(),j.getPrint().size());
-//        }
-//        std::cout<<"\n";
-//    }
+    string result;
+    result.append("-----------------------\n");
+    for (auto &i : bignum) {
+        for (auto &j : i) {
+            result.append(j.getPrint());
+            result.append(" ");
+        }
+        result.append("\n");
+    }
+    return result;
 }
 Matrix Matrix::operator*(const Matrix &matrix) {
     Matrix matrix1;

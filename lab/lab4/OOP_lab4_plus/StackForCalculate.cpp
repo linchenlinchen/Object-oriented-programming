@@ -33,7 +33,7 @@ Matrix &StackForCalculate::getResult(vector<string> strs) {
                 stackForMatrix.pop();
                 Matrix matrix2 = stackForMatrix.top();
                 stackForMatrix.pop();
-                Matrix result = matrix1 * matrix2;
+                Matrix result = matrix2 * matrix1;
                 stackForMatrix.push(result);
             } else if(strs[i] == "+"){
                 Matrix matrix1 = stackForMatrix.top();

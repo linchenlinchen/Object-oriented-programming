@@ -11,7 +11,7 @@
 #include <vector>
 using namespace std;
 
-const int LENGTH = 40;
+const int LENGTH = 60;
 
 
 /*Bignum内data按照低位到高位存储*/

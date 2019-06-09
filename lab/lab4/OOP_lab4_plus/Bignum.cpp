@@ -34,9 +34,9 @@ Bignum::Bignum(int num) {
 
 void Bignum::print() {
     char sign = (this->signal)? '+': '-';
-    std::cout<<sign;
+    char s = ((sign == '-') ? sign : ' ');
+    std::cout<< s;
     int beginNumber = LENGTH - 1;
-    bool isZero;
     /*高位的无效0不打印*/
     for (int i = beginNumber; i >= 0; i--) {
         if(this->data[i] != 0){
@@ -56,10 +56,26 @@ void Bignum::print() {
 
 string Bignum::getPrint() {
     string sign = (this->signal)? "+": "-";
-    for (int i = LENGTH-1; i >= 0; i--) {
-        sign.append(""+this->data[i],1);
+    string s = ((sign == "-") ? sign : "");
+    int beginNumber = LENGTH - 1;
+    /*高位的无效0不打印*/
+    for (int i = beginNumber; i >= 0; i--) {
+        if(this->data[i] != 0){
+            beginNumber = i;
+            break;
+        }
+        if(i == 0){
+            beginNumber = 0;
+        }
     }
-    return sign;
+    /*打印有效位*/
+    for (int j = beginNumber; j >= 0; j--) {
+        s.append(to_string(this->data[j]));
+    }
+    /*for (int i = LENGTH-1; i >= 0; i--) {
+        sign.append(to_string(this->data[i]));
+    }*/
+    return s;
 }
 Bignum Bignum::operator-() {
     int data[LENGTH];
